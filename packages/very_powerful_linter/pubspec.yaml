@@ -1,0 +1,6 @@
+name: very_powerful_linter
+description: Meu linter poderoso com muitas regras inclusas, escolhidas a dedo
+version: 1.0.0
+
+environment:
+  sdk: ^3.4.3

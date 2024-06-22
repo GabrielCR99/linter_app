@@ -1,0 +1,72 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Rodrigo Rahman",
+            "email": "rodrigorahman@academiadoflutter.com.br",
+            "role": "CEO"
+        },
+        {
+            "id": 1,
+            "name": "Guilherme",
+            "email": "guilherme@gmail.com",
+            "role": "CTO"
+        },
+        {
+            "id": 2,
+            "name": "Gabriel Roveri",
+            "email": "gabriel.roveri7@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "id": 3,
+            "name": "Marcus",
+            "email": "marcus@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "id": 4,
+            "name": "Leonardo",
+            "email": "leonardo@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "id": 5,
+            "name": "Felipe",
+            "email": "felipe@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "user_details": [
+        {
+            "id": 0,
+            "phone": "11 9999-9999",
+            "address": "Rua do CEO, 123"
+        },
+        {
+            "id": 1,
+            "phone": "11 9888-8888",
+            "address": "Rua do CTO, 123"
+        },
+        {
+            "id": 2,
+            "phone": "11 9777-7777",
+            "address": "Rua do Dev, 123"
+        },
+        {
+            "id": 3,
+            "phone": "11 9666-6666",
+            "address": "Rua do Dev, 123"
+        },
+        {
+            "id": 4,
+            "phone": "11 9555-5555",
+            "address": "Rua do Dev, 123"
+        },
+        {
+            "id": 5,
+            "phone": "11 9444-4444",
+            "address": "Rua do Dev, 123"
+        }
+    ]
+}

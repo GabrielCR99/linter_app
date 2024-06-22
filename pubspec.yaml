@@ -1,0 +1,23 @@
+name: linter_app
+description: Um aplicativo que usa as regras do meu próprio linter.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.4.3
+
+dependencies:
+  dio: ^5.4.3+1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  only_recommended_rules_linter:
+    path: packages/only_recommended_rules_linter
+  very_powerful_linter:
+    path: packages/very_powerful_linter
+  very_powerful_linter_with_og_dcm:
+    path: packages/very_powerful_linter_with_og_dcm
+
+flutter:
+  uses-material-design: true

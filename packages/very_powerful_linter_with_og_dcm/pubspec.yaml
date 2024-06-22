@@ -1,0 +1,10 @@
+name: very_powerful_linter_with_og_dcm
+description: Meu linter muito poderoso com regras do antigo DCM 
+version: 1.0.0
+
+environment:
+  sdk: ^3.4.3
+
+
+dev_dependencies:
+  dart_code_metrics: ^5.7.6
