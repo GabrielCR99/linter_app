@@ -1,0 +1,6 @@
+pre-push:
+  parallel: true
+  commands:
+    lint:
+      run: flutter analyze
+      glob: "*.dart"
