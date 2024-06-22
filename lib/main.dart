@@ -14,7 +14,7 @@ void main() {
   final userDetailController =
       UserDetailController(userRepository: userRepository);
 
-  print('foo');
+  // print('foo');
 
   return runApp(
     MainApp(
