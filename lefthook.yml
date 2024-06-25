@@ -7,7 +7,7 @@ pre-commit:
 commit-msg:
   commands:
     validate:
-      run: dart pub run ./lefthook/hooks/commit.dart
+      run: flutter pub run ./lefthook/hooks/commit.dart
 
 pre-push:
   parallel: true
