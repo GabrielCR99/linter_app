@@ -1,3 +1,14 @@
+pre-commit:
+  commands:
+    pretty:
+      glob: "*.dart"
+      run: dart format {staged_files} -l 80 && git add {staged_files}
+
+commit-msg:
+  commands:
+    validate:
+      run: dart pub run ./lefthook/hooks/commit.dart
+
 pre-push:
   parallel: true
   commands:
