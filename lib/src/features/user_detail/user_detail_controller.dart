@@ -15,7 +15,7 @@ enum UserDetailStatus {
 typedef UserDetailState = ({
   UserDetailStatus status,
   String? errorMessage,
-  UserByIdDto user,
+  UserInfoDTO user,
 });
 
 const _emptyUser = (address: '', phone: '');

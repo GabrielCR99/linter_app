@@ -9,11 +9,6 @@ final class UserModel {
     required this.role,
   });
 
-  final int id;
-  final String name;
-  final String email;
-  final String role;
-
   factory UserModel.fromMap(Map<String, dynamic> json) => switch (json) {
         {
           'id': final int id,
@@ -24,6 +19,10 @@ final class UserModel {
           UserModel(id: id, name: name, email: email, role: role),
         _ => throw FormatException('Invalid JSON format for UserModel $json'),
       };
+  final int id;
+  final String name;
+  final String email;
+  final String role;
 
   @override
   bool operator ==(Object other) =>

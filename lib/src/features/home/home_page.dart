@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../models/user_model.dart';
 import 'home_controller.dart';
 
 final class HomePage extends StatefulWidget {
@@ -35,7 +34,7 @@ final class _HomePageState extends State<HomePage> {
               const Center(child: CircularProgressIndicator()),
             HomeStatus.success => ListView.builder(
                 itemBuilder: (_, index) {
-                  final UserModel(:id, :name, :email, :role) = users[index];
+                  final (:id, :name, :email, :role) = users[index];
 
                   return ListTile(
                     title: Text(name),

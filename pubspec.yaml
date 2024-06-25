@@ -16,8 +16,6 @@ dev_dependencies:
     path: packages/only_recommended_rules_linter
   very_powerful_linter:
     path: packages/very_powerful_linter
-  very_powerful_linter_with_og_dcm:
-    path: packages/very_powerful_linter_with_og_dcm
 
 flutter:
   uses-material-design: true

@@ -1,1 +1,2 @@
-include: package:very_powerful_linter_with_og_dcm/analysis_options.yaml
+# * To change this file, change the include directive in `analysis_options.yaml`.
+include: package:very_powerful_linter/analysis_options.yaml

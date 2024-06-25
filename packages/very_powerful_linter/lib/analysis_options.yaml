@@ -1,4 +1,6 @@
-exclude:
+analyzer:
+
+  exclude:
     - build/**
     - assets/**
     - "**/*.g.dart"
@@ -7,12 +9,12 @@ exclude:
     # - "lib/src/core/logger/**.dart"
     - "**/firebase_options.dart"
 
-language:
+  language:
     strict-casts: true
     strict-inference: true
     strict-raw-types: true
 
-errors:
+  errors:
     prefer_relative_imports: warning
     constant_identifier_names: warning
     non_constant_identifier_names: warning
@@ -222,3 +224,4 @@ linter:
     - use_to_and_as_if_applicable
     - valid_regexps
     - void_checks
+    - sort_constructors_first

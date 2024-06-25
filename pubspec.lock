@@ -129,12 +129,5 @@ packages:
       relative: true
     source: path
     version: "1.0.0"
-  very_powerful_linter_with_og_dcm:
-    dependency: "direct dev"
-    description:
-      path: "packages/very_powerful_linter_with_og_dcm"
-      relative: true
-    source: path
-    version: "1.0.0"
 sdks:
   dart: ">=3.4.3 <4.0.0"

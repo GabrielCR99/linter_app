@@ -3,7 +3,6 @@ import 'dart:developer';
 import 'package:flutter/foundation.dart';
 
 import '../../core/exceptions/get_all_users_exception.dart';
-import '../../models/user_model.dart';
 import '../../repositories/user/user_repository.dart';
 
 enum HomeStatus {
@@ -16,7 +15,7 @@ enum HomeStatus {
 typedef HomeState = ({
   HomeStatus status,
   String? errorMessage,
-  List<UserModel> users,
+  List<UserDTO> users,
 });
 
 final class HomeController extends ValueNotifier<HomeState> {
