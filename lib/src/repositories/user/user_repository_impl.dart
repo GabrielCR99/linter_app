@@ -5,7 +5,7 @@ import 'package:dio/dio.dart';
 import '../../core/exceptions/get_all_users_exception.dart';
 import '../../core/exceptions/get_user_by_id_exception.dart';
 import '../../core/rest_client/rest_client.dart';
-import './user_repository.dart';
+import 'user_repository.dart';
 
 final class UserRepositoryImpl implements UserRepository {
   const UserRepositoryImpl({required this.restClient});
