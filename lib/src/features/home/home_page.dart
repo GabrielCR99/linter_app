@@ -55,4 +55,10 @@ final class _HomePageState extends State<HomePage> {
       ),
     );
   }
+
+  @override
+  void dispose() {
+    widget.controller.dispose();
+    super.dispose();
+  }
 }

@@ -22,7 +22,7 @@ final class HomeController extends ValueNotifier<HomeState> {
   HomeController({required UserRepository userRepository})
       : _userRepository = userRepository,
         super(
-          (status: HomeStatus.initial, errorMessage: null, users: const []),
+          const (status: HomeStatus.initial, errorMessage: null, users: []),
         );
 
   final UserRepository _userRepository;
